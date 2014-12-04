@@ -21,8 +21,19 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+Start up: in terminal "rails server"
+          in browser localhost:3000/locations
 
+Modified files:
+/app/models/location.rb
+/app/views/layouts/application.html.erb
+/app/controllers/locations_controller.rb
+app/views/locations/index.html.erb
+Gemfile
+
+Versions:
+Ruby 1.9.3
+Gmaps4rails: 1.5.6
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
